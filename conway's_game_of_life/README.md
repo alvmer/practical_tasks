@@ -17,7 +17,7 @@
 * Игра (как программа) должна завершаться успешно (с нулевым кодом возврата) в момент закрытия пользователем игрового окошка (нажатия на крестик).
 * Требуется иметь friendly интерфейс, то есть подсказки о горячих клавишах должны быть на экране (и быть актуальными!). Например, в режиме паузы можно предложить игроку нажать *P* для того, чтобы продолжить игру, а в режиме игры можно предложить поставить игру на паузу.
 
-#### Уровень сложности HARD.
+#### Уровень сложности HARD
 
 * В самом верху экрана по середине (!) творческим шрифтом (!) должно быть написано ***Game of Life***.
 * Должна выводиться информация о номере поколения (и быть актуальной!).
@@ -69,14 +69,14 @@ if (event.type == sf::Event::KeyPressed) {
 #### Полезные материалы SFML для этого практикума
 
 1. Объект [sf::RenderWindow window](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderWindow.php)
-..* Метод [window.isOpen()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#ae873503db7d48157bb9cbf6129562bce)
-..* Метод [window.pollEvent()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#a338e996585faf82e93069858e3b531b7)
-..* Метод [window.draw()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTarget.php#a12417a3bcc245c41d957b29583556f39)
-..* Метод [window.display()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#adabf839cb103ac96cfc82f781638772a)
-..* Метод [window.clear()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTarget.php#a6bb6f0ba348f2b1e2f46114aeaf60f26)
-..* Метод [window.close()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#a99d1e030387b0c26f5995670504fe7b5)
+  * Метод [window.isOpen()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#ae873503db7d48157bb9cbf6129562bce)
+  * Метод [window.pollEvent()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#a338e996585faf82e93069858e3b531b7)
+  * Метод [window.draw()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTarget.php#a12417a3bcc245c41d957b29583556f39)
+  * Метод [window.display()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#adabf839cb103ac96cfc82f781638772a)
+  * Метод [window.clear()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1RenderTarget.php#a6bb6f0ba348f2b1e2f46114aeaf60f26)
+  * Метод [window.close()](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Window.php#a99d1e030387b0c26f5995670504fe7b5)
 2. Объект [sf::Event event](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Event.php)
-..* Разбор типа событий [sf::Event::EventType
+  * Разбор типа событий [sf::Event::EventType
 ](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Event.php#af41fa9ed45c02449030699f671331d4a). Ключевые `sf::Event::Closed`, `sf::Event::KeyPressed`, `sf::Event::MouseButtonPressed`.
 3. Шрифт [sf::Font](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Font.php)
 4. Текст [sf::Text](https://www.sfml-dev.org/documentation/2.5.1/classsf_1_1Text.php)
