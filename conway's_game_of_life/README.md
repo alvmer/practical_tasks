@@ -84,8 +84,8 @@ if (event.type == sf::Event::KeyPressed) {
  
 ## Литература
 
-1.[Базовая статья Википедии](https://ru.wikipedia.org/?oldid=105800593).
-2.[Научный обзор Гарднера (о фигурах)](http://life.written.ru/game_of_life_review_by_gardner).
-3.[Ссылка для установки SFML а также их главный сайт](https://www.sfml-dev.org/download.php).
+1. [Базовая статья Википедии](https://ru.wikipedia.org/?oldid=105800593).
+2. [Научный обзор Гарднера (о фигурах)](http://life.written.ru/game_of_life_review_by_gardner).
+3. [Ссылка для установки SFML а также их главный сайт](https://www.sfml-dev.org/download.php).
 
 
